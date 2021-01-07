@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    flex-direction:row;
+    background-image: url("img/fondo.jpg");
+    height: 10rem;
+    box-shadow: 5px 8px black;
+    border-radius: 1em/3em;
+}
+
+header img {
+    transform: translateY(-5%);
+    height: 15rem;
+    /* transform: translateX(-15%); */
+  }
+
+  body{
+      background-color: #D8D8D8	;
+  }
+
+  .cabeza{
+text-align: center;
+  }
+  
+  #tituloinput{
+      font-size: 50px;
+      color: red;
+  }
+
+  .buscador{
+      text-align: right;
+  }
+
+  .ultimo{
+      text-align: left;
+  }
+
+  .resultado{
+      text-align: center;
+  }
