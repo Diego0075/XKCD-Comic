@@ -6,12 +6,12 @@ var cont = 0;
 document.getElementById("cont").onclick=function(){
   cont++;
   console.log(cont)
-  document.getElementById("info").innerHTML="";
+  document.getElementById("info").innerHTML="¡Haz click en la imagen para ver los detalles!";
   loadDoc("https://xkcd.now.sh/?comic="+cont,imgAleatoria);
 }
 
 botonbusc.addEventListener("click",function() {
-  document.getElementById("info").innerHTML="";
+  document.getElementById("info").innerHTML="¡Haz click en la imagen para ver los detalles!";
   var num = document.getElementById("numero").value;
     // loadDoc("https://xkcd.com/info.0.json",imgAleatoria);
     loadDoc("https://xkcd.now.sh/?comic="+num,imgAleatoria);
